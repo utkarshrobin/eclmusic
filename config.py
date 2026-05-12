@@ -11,4 +11,4 @@ SESSION_STRING = os.getenv("SESSION_STRING", "BQFjKAMAwLysZzN7oImPsnXD-l3nrMBmjP
 PREFIX = "/"
 
 # Bot Owner ID
-OWNER_ID = int(os.getenv("OWNER_ID", "8000127916, 8722613907"))
+OWNER_ID = int(os.getenv("OWNER_ID", "8000127916"))

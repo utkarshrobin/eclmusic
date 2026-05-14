@@ -1,6 +1,6 @@
+yt-dlp>=2025.05.22
 pyrogram
 py-tgcalls
-yt-dlp
 tgcrypto
 ffmpeg-python
 static-ffmpeg

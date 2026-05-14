@@ -56,6 +56,7 @@ ydl_opts = {
     'outtmpl': 'downloads/%(id)s.%(ext)s',
     'noplaylist': True,
     'quiet': True,
+    'cookiefile': 'cookies.txt',
 }
 
 QUEUE = {}

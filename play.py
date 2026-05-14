@@ -9,12 +9,11 @@ from main import call_py
 
 # yt-dlp configuration to extract audio stream
 ydl_opts = {
-    'format': 'bestaudio/best',
+    'format': 'bestaudio[ext=m4a]/bestaudio/best',
     'noplaylist': True,
     'quiet': True,
-    'cookiefile': 'cookies.txt',
+    'cookiefile': 'cookies.txt'
 }
-
 @Client.on_message(filters.command("play") & filters.group)
 async def play_command(client: Client, message: Message):
     if len(message.command) < 2:

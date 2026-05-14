@@ -12,6 +12,7 @@ ydl_opts = {
     'format': 'bestaudio/best',
     'noplaylist': True,
     'quiet': True,
+    'cookiefile': 'cookies.txt',
 }
 
 @Client.on_message(filters.command("play") & filters.group)

@@ -52,11 +52,12 @@ user = Client(
 call_py = PyTgCalls(user)
 
 ydl_opts = {
-    'format': 'bestaudio/best',
+    'format': 'bestaudio[ext=m4a]/bestaudio/best',
     'outtmpl': 'downloads/%(id)s.%(ext)s',
     'noplaylist': True,
     'quiet': True,
     'cookiefile': 'cookies.txt',
+    'extract_flat': False
 }
 
 QUEUE = {}

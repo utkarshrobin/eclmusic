@@ -1,8 +1,7 @@
-telegram
-yt-dlp
 pyrogram
-py-tgcalls
 tgcrypto
+py-tgcalls
+yt-dlp
 ffmpeg-python
 static-ffmpeg
 psutil
